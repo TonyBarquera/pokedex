@@ -35,7 +35,8 @@ export default function Pokemon(props: Props) {
             <Image 
                 className='mx-auto my-5 object-cover transition-transform scale-100 hover:scale-125' 
                 width={250} 
-                height={250} 
+                height={250}
+                loading='lazy'
                 src={pokemon.sprites.other.home.front_default} 
                 alt={pokemon.name}
             />
